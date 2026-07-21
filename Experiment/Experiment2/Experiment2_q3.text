@@ -1,0 +1,5 @@
+SELECT emp_id, emp_name 
+FROM employee
+INTERSECT
+SELECT emp_id, emp_name 
+FROM pt_employee;
