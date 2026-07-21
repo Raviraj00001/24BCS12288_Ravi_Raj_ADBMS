@@ -1,5 +1,4 @@
-SELECT emp_id, emp_name 
-FROM employee
+
+SELECT f_name FROM fruit
 INTERSECT
-SELECT emp_id, emp_name 
-FROM pt_employee;
+SELECT inv_name FROM inventory;
